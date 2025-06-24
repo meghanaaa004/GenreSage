@@ -5,7 +5,7 @@ from sklearn.metrics import classification_report, accuracy_score
 import joblib
 
 # 1. Load the dataset
-data_path = "C:/Engineering/MUSIC/dataset/features_3_sec.csv"
+data_path = "" #Dataset Path
 df = pd.read_csv(data_path)
 
 # 2. Quick data check
@@ -31,5 +31,5 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # 7. Save the trained model
-joblib.dump(model, "C:/Engineering/MUSIC/genre_classifier_3sec.pkl")
+joblib.dump(model, "") #.pkl file path
 print("Model saved successfully!")
