@@ -5,7 +5,7 @@ from sklearn.metrics import classification_report, accuracy_score
 import joblib
 
 # 1. Load the dataset
-df = pd.read_csv("C:/Engineering/MUSIC/dataset/features_3_sec.csv")
+df = pd.read_csv("") #Dataset Path
 
 # 2. Drop filename and isolate features/labels
 X = df.drop(columns=['filename', 'label'])
@@ -42,5 +42,5 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # 7. Save the best model
-joblib.dump(best_model, "C:/Engineering/MUSIC/best_genre_classifier.pkl")
+joblib.dump(best_model, "/abc/def/ghi") #path tho save the file
 print("Model saved successfully!")
