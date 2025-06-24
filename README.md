@@ -39,10 +39,6 @@ GenreSage/
 ├── training/
 │   ├── train\_model.py           # Model training with hyperparameter tuning
 │   └── train\_baseline.py        # Basic model training (no tuning)
-│
-├── models/
-│   └── best\_genre\_classifier.pkl  # Pre-trained Random Forest model
-│
 ├── requirements.txt             # Python package dependencies
 ├── README.md                    # Project overview
 ├── .gitignore                   # Files to exclude from Git
