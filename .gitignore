@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.wav
+*.mp3
+*.tmp
+*.log
+
+# Models and data
+*.h5
+*.csv
+*.npy
+models/
+*.sav
+
+# FastAPI/uvicorn logs
+*.log
